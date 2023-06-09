@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0%;
+  background-color: #589ed9;
+  font-family: "Open Sans", sans-serif;
+}
+.main {
+  position: absolute;
+  top: 120px;
+  left: 40%;
+  width: 300px;
+  text-align: center;
+}
+.ri-weibo-fill {
+  font-size: 3em;
+  color: white;
+}
+.welcome {
+  font-size: 32px;
+  color: white;
+}
+.form .login {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.login input {
+  width: 100%;
+  background-color: white;
+  border: none;
+  padding: 18px 0px 18px 0px;
+  margin: 0%;
+  outline: none;
+  text-indent: 1em;
+  font-size: 15px;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+.login input[type="password"] {
+  border-color: 1px solid #ccc;
+  border-radius: 0px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.form input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px 0px;
+  margin-top: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  background-color: #2186d4;
+  text-transform: capitalize;
+}
+input[type="submit"] :hover {
+  background: #2186b4;
+  cursor: pointer;
+}
+.footer p {
+  color: white;
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
